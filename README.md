@@ -24,4 +24,7 @@ The pbn file, as well as containing information about the hands to be dealt has 
 - The event name: that could be something like 'Monday afternoon' or 'Social Pairs' or 'Individual Tourney'
 - The playing date
 
-In the files created there is also information about the double dummy analysis
+In the files created there is also information about the double dummy analysis which gives the number of tricks that can be made by a dealer in each of the suit or in no trumps.  The algorithm used is the Bo Haglund double dummy solver available as open source in Afwas/python-dd.   (A slight problem was found with this code in that it used a Python function os.path.abspath() that caused the code to fail when converted into an exe with pyinstaller.  For this reason the opensource ddstable.py code was copied into a local file PBNdds.py and the code that used this function was recoded in a different way.)
+
+
+
