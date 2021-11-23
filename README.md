@@ -12,7 +12,7 @@ The app repeatedly randomly shuffles and deals the 4 hands and adds details to a
 Up to 30 boards may be created in a single pbn file.
 The pbn files are created in a folder and have the file extension '.pbn'.
 
-pbn files are used by automatic card dealing machines to deal physical boards and playing cards.  There are a number of different dealing machines:
+pbn files are used by automatic card dealing machines to deal physical boards and playing cards.  There are a number of different dealing machines. Here are pictures of two of them:
 
 ![image](https://user-images.githubusercontent.com/93732783/142860123-12acc832-2839-4477-8d41-b2257a661bc0.png)
 
@@ -30,9 +30,9 @@ In the files created there is also information about the double dummy analysis w
 ## Features
 The features of PBNCreator are:
 1. Specify a Site Name, Event Name and the number of boards to be generated in each PBN file
-2. Choose a range of dates between which a single PBN file will be generated at the rate of one per week.
+2. Choose a range of dates between which PBN files will be generated at the rate of one per week.
 3. Specify the weekday on which the bridge session is to be played.
-4. Specify a folder (directory) into which the PBN files are to be saved.  File names are of the form YYMMDD.pbn where the playing date of the bridge session is DD/MM/YYYY.  E.g. the file named  211101.pbn would have a playing date of 01/11/2021.
+4. Specify a folder (directory) into which the PBN files are to be saved.  PBN file names are of the form YYMMDD.pbn where the playing date of the bridge session is DD/MM/YYYY.  E.g. the file named  211101.pbn would have a playing date of 01/11/2021.
 4. Optionally select to produce a pdf file of the boards in the set of pbn files.  For each of the PBN files a single page is formatted showing all the boards in the file. For each board it shows the board number, the dealer and vulnerability, the hands, the high card points for each hand and the double dummy analysis indicating makeable tricks by each player in each suit and no trumps.  The pdf file is created as a temporary file that is opened in Adobe Acrobat at the end of the file generation so that it may be saved or printed.
 5. The ability to set up a default Site Name, Event Name, number of boards and an option to reject any board where no hand has more than 11 points (such hands are likely to be passed out during the bidding and as such they may be undesirable.
 
